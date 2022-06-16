@@ -1,0 +1,76 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS (and SCSS, if configured) file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+table, th, td{
+  width: 750px;
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+  border-collapse: collapse;
+}
+th{
+  background-color: rgb(198, 232, 248);
+}
+table a{
+  font-size: 19px;
+}
+a{
+  font-size: 23px;
+}
+#user{
+  padding-left: 330px;
+}
+.error{
+  color: red;
+}
+.radio-container{
+  display: grid;
+  grid-template-columns: 70px 20px 50px 20px 50px 20px 50px;
+  width:900px;
+  column-gap: 10px;
+}
+.input-container{
+  display: grid;
+  grid-template-columns: 50px 50px;
+  width:900px;
+  column-gap: 10px;
+}
+input[type="submit"]{
+  padding: 10px 15px;
+  
+}
+#user_name{
+  width:150px;
+  padding:5px;
+}
+#user_age{
+  width: 150px;
+  padding:5px;
+}
+label{
+  font-size: 18px;
+  font-weight: bold;
+}
+.form{
+  margin-left:200px;
+}
+.form1{
+  width: 300px;
+  margin-left: 350px;
+  background-color: rgb(198, 232, 248);
+}
+h2{
+  margin-left: 350px;
+}
